@@ -1,0 +1,32 @@
+/* Write your code here: */
+
+/* Combining 2 selectors */
+h1,h2{
+    color: blueviolet;
+}
+
+/* Inherit */
+.box > p {
+    color: firebrick;
+}
+
+/* Decendents */
+.box li{
+    color: blue;
+}
+
+/* Chaining */
+.box .list .done{ /* It can also be li.done */
+    color: seagreen;
+}
+
+/* Mixing all kind of selectors */
+ul p.done{
+    /* color: gold; */
+    font-size: 0.5rem;
+}
+
+
+/* .list > .done{
+    color: aqua;
+} */
